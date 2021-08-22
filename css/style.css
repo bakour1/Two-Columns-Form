@@ -90,6 +90,12 @@ textarea {
   width: 100%;
 }
 
+::placeholder {
+  color: var(--color-holder);
+  font-size: 16px;
+}
+
+
 /* . . . . MARK . . . .  */
 main .container form {
   margin-block: 30px;
